@@ -67,10 +67,10 @@ The logistic regression model predicts the 0 (healthy loans) at around 99% accur
   - Recall scores - 100 % 
 
 # Summary
-The logistic regression model predicts the 0 (healthy loans) at around 99% accuracy and the 1 (high-risk loans) at 85-87% accuracy. 
-The prediction accuracy is more accurate with the balanced report.  I would recommend using the RandomOverSampler for a more accurate reading.
-I would also recommend including checks and balances to evaluate customers that could be falsely flagged as high risk as well as customers that might be falsely rated as a healthy risk.
-It is most likely more important to the financial institution to correctly identify high risk loans even if the model identifies some customers to be high risk that are not high risk.
+- The logistic regression model predicts the 0 (healthy loans) at around 99% accuracy and the 1 (high-risk loans) at 85-87% precision. 
+- The prediction accuracy is slightly more accurate with the balanced report using the Random Oversampler.  I would recommend using the RandomOverSampler for a more accurate reading.
+- I would also recommend including checks and balances to evaluate customers that could be falsely flagged as high risk as well as customers that might be falsely rated as a healthy risk.
+- It is most likely more important to the financial institution to correctly identify high risk loans even if the model identifies some customers to be high risk that are not high risk.
 
 # Resources
 I received help from the following
